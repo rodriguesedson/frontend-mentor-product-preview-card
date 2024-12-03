@@ -110,15 +110,15 @@ body {
     flex-direction: row;
     width: 50%;
     height: 70%;
-    border-radius: 15px;
+    border-radius: 20px;
   }
 
   .product-image {
     width: 50%;
     height: 100%;
     border-top-right-radius: 0;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-image: url('../images/image-product-desktop.jpg');
     background-size: cover;
   }
@@ -150,18 +150,24 @@ body {
 
 @media (min-width: 1440px) {
   .product-card {
-    height: 50vh;
+    height: 60%;
+    width: 45%;
+  }
+
+  .product-info {
+    padding: 60px;
   }
 
   .product-cart-button {
     height: 5vh;
+    border-radius: 10px;
   }
 
   .product-type, .product-description, .product-small-price, .product-cart-button {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
   }
 
   .product-name, .product-price {
-    font-size: 2.6vw;
+    font-size: 2.5vw;
   }
 }
