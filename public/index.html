@@ -2,36 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
   
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-  </style>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <card class="product-card">
     <div class="product-image"></div>
-    <div class="produtct-info">
-      <h2 class="product-type">Perfume</h2>
-      <h1 class="perfume-name">Gabrielle Essence Eau De Parfum</h1>
-      <p class="description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
-      <h2 class="price">$149.99</h2>
-      <h3 class="small-price">$169.99</h3>
-      <button class="cart-button">Add to Cart</button>
+    <div class="product-info">
+      <div class="product-text-wrapper">
+        <p class="product-type">Perfume</p>
+        <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="product-price-wrapper">
+          <h2 class="product-price">$149.99</h2>
+          <h3 class="product-small-price">$169.99</h3>
+        </div>
+        <button class="product-cart-button">
+          <img class="product-cart-icon" src="./images/icon-cart.svg" alt="">Add to Cart
+        </button>
+      </div>
     </div>
   </card>
   
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
